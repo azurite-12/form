@@ -1,0 +1,79 @@
+.header{
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: aliceblue;
+	margin-bottom: 30px;
+}
+
+.forma {
+	width: 750px;
+	background-color: rgba(28,3,85,0.9);
+	margin: auto;
+	color: aliceblue;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.125rem;
+	padding-bottom: 2.25em;
+	border-radius: 9px;
+}
+
+html {
+	min-height: 100%;
+	background: linear-gradient(0deg, rgba(114,87,220,0.6), rgba(114,87,220,0.6)),url(https://plus.unsplash.com/premium_photo-1663051303500-c85bef3f05f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+select {
+	display: block;
+	width: 100%;
+	margin: 0;
+	height: 2.5em;
+	margin-bottom: 20px;
+}
+
+p {
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin: 0.5rem 0;
+}
+
+fieldset {
+	border: none;
+	padding: 0.5rem 2rem;
+}
+
+fieldset:last-of-type {
+	border-bottom: none;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	min-height: 9em;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+	display: block;
+	width: 100%;
+	height: 2.3em;
+}
+
+.submit-button {
+	display: block;
+	width: 92%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: lightgreen;
+	min-width: 300px;
+	border: none;
+}
+
+label[for="comments"]{
+	margin-top: 25px;
+}
+
+p[id="improve"]{
+	margin-top: 50px;
+}
