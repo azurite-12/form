@@ -11,7 +11,7 @@
 	margin: auto;
 	color: aliceblue;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 1.125rem;
+	font-size: 1.2rem;
 	padding-bottom: 2.25em;
 	border-radius: 9px;
 }
@@ -61,12 +61,12 @@ input[type="text"], input[type="email"], input[type="number"] {
 
 .submit-button {
 	display: block;
-	width: 92%;
+	width: 70%;
 	margin: 1em auto;
 	height: 2em;
 	font-size: 1.1rem;
 	background-color: lightgreen;
-	min-width: 300px;
+	max-width: 90%; 
 	border: none;
 }
 
@@ -76,4 +76,10 @@ label[for="comments"]{
 
 p[id="improve"]{
 	margin-top: 50px;
+}
+
+@media only screen and (max-width: 380px) and (max-height: 800px) {
+	.forma {
+		width: 80%;
+	}
 }
